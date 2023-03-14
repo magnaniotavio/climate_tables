@@ -3,6 +3,8 @@ import SearchInput from './SearchInput';
 import axios from 'axios';
 import './style.css';
 
+/* Through this app, we can get the Wikipedia climate tables for any city by simply doing a search,
+which can include more than one city at once. */
 
 class App extends React.Component{
 
