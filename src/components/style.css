@@ -3,10 +3,10 @@
   margin-right: 15%;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
   color: black;
-  }
+}
 
 .header {
   background-color: black;
@@ -51,14 +51,14 @@ a{
 }
 
 .title {
-    font-weight: bold;
-    font-size: x-large;
-    text-align: right;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-decoration: underline;
-  }
+  font-weight: bold;
+  font-size: x-large;
+  text-align: right;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-decoration: underline;
+}
 
 
 .search-result {
@@ -68,35 +68,35 @@ a{
 }
 
 table {
-   min-width: 50%;
-   min-height: 50%;
-   border-collapse: collapse;
-   border: 1px solid black;
-   text-align: center;
-   empty-cells: show;
- }
- 
- tr {
-   border-bottom: 1pt solid black;
- }
+  min-width: 50%;
+  min-height: 50%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  empty-cells: show;
+}
 
- th {
-   font-weight: bold;
-   border-left: 1pt solid black;
-   border-right: 1pt solid black;
- }
- 
- td {
-   border-left: 1pt solid black;
-   border-right: 1pt solid black;
-   min-width: 50%;
- }
+tr {
+  border-bottom: 1pt solid black;
+}
 
- .whatever {
+th {
   font-weight: bold;
- }
+  border-left: 1pt solid black;
+  border-right: 1pt solid black;
+}
 
- .título {
+td {
+  border-left: 1pt solid black;
+  border-right: 1pt solid black;
+  min-width: 50%;
+}
+
+.whatever {
+  font-weight: bold;
+}
+
+.título {
   font-weight: bold;
   font-size: x-large;
   text-align: right;
@@ -105,5 +105,4 @@ table {
   margin-right: 5%;
   text-decoration: underline;
 
- }
-
+}

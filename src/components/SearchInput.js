@@ -5,34 +5,34 @@ at the moment we make the search. Once the entry is set, the code in the App.js 
 will be able to operate on it. */
 
 class SearchInput extends React.Component {
-  
-  constructor(props){
+
+  constructor(props) {
     super(props)
-    this.state = {entry: ''}
+    this.state = { entry: '' }
     this.onFormSubmit = this.onFormSubmit.bind(this)
   }
 
-onFormSubmit = (event) => {
-  event.preventDefault();
-  this.props.onSearchSubmit(this.state.entry)
-}
+  onFormSubmit = (event) => {
+    event.preventDefault();
+    this.props.onSearchSubmit(this.state.entry)
+  }
 
-render() {
-  return(
-    <div>
-      <form onSubmit={this.onFormSubmit}>
-            <input 
+  render() {
+    return (
+      <div>
+        <form onSubmit={this.onFormSubmit}>
+          <input
             className="search-bar"
             type="text"
             placeholder='search...'
             // Handles the changes by setting the state
-            onChange={(event) => this.setState({entry:event.target.value})}
+            onChange={(event) => this.setState({ entry: event.target.value })}
             // Sets the entry as the value of the form
-            value={this.state.entry}           />
-      </form>
-    </div>
-  )
-}
+            value={this.state.entry} />
+        </form>
+      </div>
+    )
+  }
 }
 
 export default SearchInput;
